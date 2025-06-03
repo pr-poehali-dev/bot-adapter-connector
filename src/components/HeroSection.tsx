@@ -5,8 +5,24 @@ import BotCard from "./BotCard";
 
 const HeroSection = () => {
   return (
-    <section className="min-h-screen bg-gradient-to-br from-purple-900 via-purple-800 to-indigo-900 flex items-center justify-center p-4">
-      <div className="max-w-4xl mx-auto text-center">
+    <section className="min-h-screen bg-gradient-to-br from-purple-900 via-purple-800 to-indigo-900 flex items-center justify-center p-4 relative overflow-hidden">
+      {/* Casino Background Animation */}
+      <div className="absolute inset-0 pointer-events-none">
+        <div className="casino-symbol casino-symbol-1">🎰</div>
+        <div className="casino-symbol casino-symbol-2">💎</div>
+        <div className="casino-symbol casino-symbol-3">🍒</div>
+        <div className="casino-symbol casino-symbol-4">🔔</div>
+        <div className="casino-symbol casino-symbol-5">⭐</div>
+        <div className="casino-symbol casino-symbol-6">💰</div>
+        <div className="casino-symbol casino-symbol-7">🍀</div>
+        <div className="casino-symbol casino-symbol-8">7️⃣</div>
+        <div className="casino-symbol casino-symbol-9">🎰</div>
+        <div className="casino-symbol casino-symbol-10">💎</div>
+        <div className="casino-symbol casino-symbol-11">🍒</div>
+        <div className="casino-symbol casino-symbol-12">🔔</div>
+      </div>
+
+      <div className="max-w-4xl mx-auto text-center relative z-10">
         {/* Hero Content */}
         <div className="mb-12 animate-fade-in">
           <div className="mb-6">
