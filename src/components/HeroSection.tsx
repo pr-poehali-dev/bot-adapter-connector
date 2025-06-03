@@ -1,5 +1,6 @@
 import { Card } from "@/components/ui/card";
 import TelegramButton from "./TelegramButton";
+import ChannelButton from "./ChannelButton";
 import BotCard from "./BotCard";
 
 const HeroSection = () => {
@@ -25,9 +26,10 @@ const HeroSection = () => {
           <BotCard />
         </div>
 
-        {/* CTA Button */}
-        <div className="animate-fade-in">
+        {/* CTA Buttons */}
+        <div className="animate-fade-in space-y-4">
           <TelegramButton />
+          <ChannelButton />
         </div>
 
         {/* Additional Info */}
